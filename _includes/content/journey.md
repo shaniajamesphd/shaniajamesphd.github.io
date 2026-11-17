@@ -24,7 +24,7 @@ Research and education across impact geology, planetary science, and geochemistr
 The University of Tokyo · Japan
 {: .timeline-place}
 
-Comparative study of end-Cretaceous to Pleistocene impact events, with a focus on Australasian microtektites.
+Study of Pleistocene impact events, with a focus on Australasian microtektites.
 
 </article>
 <article markdown="1">
