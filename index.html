@@ -1,0 +1,69 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shania James, Ph.D. is a planetary scientist studying impact craters and ejecta through fieldwork, geochemistry, remote sensing, and machine learning.">
+  <meta name="theme-color" content="#102544">
+  <title>Shania James, Ph.D. | Planetary Scientist</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Shania James<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-button" href="resume.html">Résumé</a>
+        <a class="nav-button nav-button-outline" href="Documents/cv_ShaniaJames.pdf">Academic CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Planetary science · Impact geology</p>
+          <p class="hero-name">Shania James, Ph.D.</p>
+          <h1>Reading the history of planetary impacts, from tiny grains to entire worlds.</h1>
+          <p class="hero-intro">I study impact craters and ejecta using field observations, geochemistry, remote sensing, and machine learning to understand how impacts shape planetary surfaces.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="resume.html">View résumé</a>
+            <a class="button button-ghost" href="https://www.linkedin.com/in/shania-james">LinkedIn</a>
+          </div>
+        </div>
+        <aside class="question-card" aria-labelledby="questions-title">
+          <div class="question-heading">
+            <span class="question-icon" aria-hidden="true">✦</span>
+            <div><h2 id="questions-title">A closer look at my research</h2><p>Select a question to learn more</p></div>
+          </div>
+          <p class="answer" id="research-answer" aria-live="polite">My research connects the traces left by meteorite impacts to the processes that move and preserve ejecta across planetary surfaces.</p>
+          <div class="question-options" aria-label="Research questions">
+            <button type="button" data-answer="I study impact craters and ejecta to understand how material is transported, deposited, and preserved on Earth and other planetary bodies.">What do you study?</button>
+            <button type="button" data-answer="My work combines field geology, microscopy, geochemistry, sediment analysis, remote sensing, and computational methods.">How do you study it?</button>
+            <button type="button" data-answer="I have investigated Chicxulub distal ejecta, Australasian microtektites, and terrestrial, Martian, and lunar impact craters.">Which impacts?</button>
+            <button type="button" data-answer="I aim to combine geological observations and machine learning to compare ejecta transport and preservation on Earth, Mars, and the Moon.">What’s next?</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    {% capture research %}{% include content/research.md %}{% endcapture %}{{ research | markdownify }}
+    {% capture skills %}{% include content/skills.md %}{% endcapture %}{{ skills | markdownify }}
+    {% capture journey %}{% include content/journey.md %}{% endcapture %}{{ journey | markdownify }}
+    {% capture publications %}{% include content/publications.md %}{% endcapture %}{{ publications | markdownify }}
+    {% capture contact %}{% include content/contact.md %}{% endcapture %}{{ contact | markdownify }}
+  </main>
+  <footer><div class="container footer-inner"><span>© <span id="year">2026</span> Shania James</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
