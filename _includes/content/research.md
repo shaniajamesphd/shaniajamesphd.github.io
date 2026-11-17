@@ -36,7 +36,7 @@ Sediments &amp; microtektites
 
 ### Following impact glass
 
-Characterizing small Australasian microtektites in deep-ocean sediments to investigate their formation, transport, and deposition.
+Characterizing Australasian microtektites in deep-ocean sediments to investigate their formation, transport, and deposition.
 
 [Explore my experience →](#experience)
 {: .text-link-paragraph}
